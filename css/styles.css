@@ -1,0 +1,220 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap");
+.body {
+  font-family: "Roboto", "Raleway" Courier, monospace;
+  color: #212121;
+}
+:root {
+  --brand-color: #2196f3;
+}
+.section-background {
+  background: #ffffff;
+}
+/* nombre de la pagina webStudio*/
+.name-page {
+  color: var(--brand-color);
+  position: absolute;
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 24px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-align: right;
+  letter-spacing: 0.03em;
+}
+/* elementos estudio, portafolio y contactos */
+
+.nav-link {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: #212121;
+}
+
+.nav-link:hover {
+  color: var(--brand-color);
+}
+.nav-link:focus {
+  color: var(--brand-color);
+}
+.site-nav .nav-link .current{
+  color: var(--brand-color);
+}
+/* contactos del correo y telefono */
+.contact {
+  color: #757575;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  text-decoration: none;
+}
+.contact:hover {
+  color: var(--brand-color);
+}
+.main-section {
+  background: #2f303a;
+}
+/* SOLUCIONES EFICACES PARA SU NEGOCIO */
+.title-solutions {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.btn-request {
+  font-family: "Roboto";
+  font-style: normal;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 32px;
+  gap: 10px;
+  padding: 10px 32px;
+  color: var(--brand-color);
+}
+
+.btn-request:hover {
+  background: #100ce8;
+  color: #ffffff;
+}
+.btn-request:focus {
+  background: #100ce8;
+  color: #ffffff;
+}
+.title-description {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+.text {
+  width: 270px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.team-section {
+  background: #f5f4fa;
+}
+.title-function {
+  font-family: "roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  color: #212121;
+}
+.team-title {
+  width: 97px;
+  height: 19px;
+  left: 295px;
+  top: 1986px;
+  font-family: "roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  color: #212121;
+}
+.rol {
+  font-family: "roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #757575;
+}
+.footer {
+  background: #2f303a;
+}
+.address {
+  font-style: normal;
+}
+.google-map {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-decoration: none;
+}
+.google-map:hover {
+  color: var(--brand-color);
+}
+/* portafolio */
+.btn-menu {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+.btn-menu:hover {
+  background: var(--brand-color);
+  color: #ffffff;
+}
+.btn-menu:focus {
+  background: var(--brand-color);
+  color: #ffffff;
+}
+.btn-menu .btn-all {
+  width: 73px;
+  height: 38px;
+  background: var(--brand-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+.title-design {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  color: #212121;
+}
+.text-folder {
+  font-family: "roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #757575;
+}
+.title-footer {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
