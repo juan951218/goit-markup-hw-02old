@@ -10,8 +10,8 @@
   <body>
     <header class="section-background">
       <a class="name-page" href="#"> WebStudio</a>
-      <nav>
-        <ul style="list-style-type: none;">
+      <nav class="menu">
+        <ul class="list-menu">
           <li>
             <a class="nav-link current" href="./index.htm">Estudio</a>
           </li>
@@ -23,7 +23,7 @@
           </li>
         </ul>
       </nav>
-      <ul style="list-style-type: none;">
+      <ul class="list-contact">
         <li>
           <a class="contact" href="mailto:info@devstudio.com"
             >info@devstudio.com</a
@@ -42,7 +42,7 @@
         </button>
       </section>
       <section class="section-background">
-        <ul style="list-style-type: none;">
+        <ul class="features">
           <li>
             <h3 class="title-description">ATENCIÓN A LOS DETALLES</h3>
             <p class="text">
@@ -74,9 +74,9 @@
           </li>
         </ul>
       </section>
-      <section class="section-background">
+      <section class="pics-section">
         <h2 class="title-function">A qué nos dedicamos</h2>
-        <ul style="list-style-type: none;">
+        <ul style="list-style-type: none; display: inline-flex; justify-content: space-between; width: 50%; padding-top: 5px; padding-left: 25%;">
           <li>
             <img src="./images/image_1.jpg" alt="Desarrollo" width="200" />
           </li>
@@ -88,24 +88,24 @@
       </section>
       <section class="team-section">
         <h2 class="title-function">Nuestro Equipo</h2>
-        <ul style="list-style-type: none;">
+        <ul style="list-style-type: none; display: inline-flex; justify-content: space-between;">
           <li>
             <img src="./images/image_4.jpg" alt="Andres Cubo" width="200" />
             <h3 class="team-title">Andrés Cubo</h3>
             <p class="rol">Diseñador de Productos</p>
           </li>
           <li>
-            <img src="./images/image_5.jpg" alt="Carla Palacios" width="200" />
+            <img src="./images/image_5.jpg" alt="Carla Palacios" width="200"/>
             <h3 class="team-title">Carla Palacios</h3>
             <p class="rol">Desarrolladora Frontend</p>
           </li>
           <li>
-            <img src="./images/image_6.jpg" alt="Mario Dorado" width="200" />
+            <img src="./images/image_6.jpg" alt="Mario Dorado" width="200"/>
             <h3 class="team-title">Mario Dorado</h3>
             <p class="rol">Marketing</p>
           </li>
           <li>
-            <img src="./images/image_7.jpg" alt="Pablo Mijangos" width="200" />
+            <img src="./images/image_7.jpg" alt="Pablo Mijangos" width="200"/>
             <h3 class="team-title">Pablo Mijangos</h3>
             <p class="rol">Diseñador IU</p>
           </li>
@@ -113,7 +113,8 @@
       </section>
     </main>
     <footer class="footer">
-      <a class="name-page" href="#">WebStudio</a>
+  <div class="div-footer">
+  <a class="name-page" href="#">WebStudio</a>
       <address class="address">
         <ul style="list-style-type: none;">
           <li>
@@ -136,6 +137,7 @@
           </li>
         </ul>
       </address>
+  </div>      
     </footer>
   </body>
 </html>
