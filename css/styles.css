@@ -10,14 +10,9 @@ body{
 }
 .section-background {
   background: #ffffff;
-  display: inline-flex;
-  width: 100%;
-  justify-content: flex-start;
 }
 /* nombre de la pagina webStudio*/
 .name-page {
-  padding-left: 100px;
-  padding-top: 10px;
   color: var(--brand-color);
   width: 145px;
   font-family: "Raleway";
@@ -30,18 +25,10 @@ body{
   text-decoration:none;
 }
 /* elementos estudio, portafolio y contactos */
-.menu{
-  justify-content: space-between;
-}
 .list-menu{
 list-style-type:none; 
-  display:flex;
-  justify-content: space-between;
 }
-
 .nav-link {
-  display: flex;
-  width: 100px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -65,10 +52,8 @@ list-style-type:none;
 /* contactos del correo y telefono */
 .list-contact{
   list-style-type: none;
-  display: inline-flex;
 }
 .contact {
-  width: 100%;
   color: #757575; 
   font-style: normal;
   font-family: "roboto";
@@ -83,7 +68,6 @@ list-style-type:none;
 .main-section {
   background: #2f303a;
   height: 600px;
-  text-align: center;
 }
 /* SOLUCIONES EFICACES PARA SU NEGOCIO */
 .title-solutions {
@@ -101,14 +85,10 @@ list-style-type:none;
 
 .btn-request {
   border: none;
-  margin-left: auto;
-  margin-right: auto;
   cursor: pointer;
   width: 261px;
   font-family: "Roboto";
   font-style: normal;
-  flex-direction: row;
-  justify-content: center;
   align-items: center;
   padding: 10px 32px;
   gap: 10px;
@@ -121,11 +101,6 @@ list-style-type:none;
 }
 .btn-request:focus{
     box-shadow: 0px 12px 15px 10px rgba(0, 0, 0, 0.1);
-}
-.features{
-  list-style-type: none;
-  display: inline-flex;
-  padding-left: 100px;
 }
 .title-description {
   font-family: "Roboto";
@@ -148,7 +123,6 @@ list-style-type:none;
 }
 .pics-section{
   list-style-type: none;
-  width: 100%;
   }
 .title-function {
   font-family: "roboto";
@@ -163,10 +137,6 @@ list-style-type:none;
 
 }
 .team-title {
-  width: 97px;
-  height: 19px;
-  left: 295px;
-  top: 1986px;
   font-family: "roboto";
   font-style: normal;
   font-weight: 500;
@@ -181,11 +151,6 @@ list-style-type:none;
   line-height: 19px;
   color: #757575;
   }
-  .div-footer{
-    width: 1200px;
-    padding: 15px;
-    justify-content: center;
-  }
 .footer {
   background: #2f303a;
 }
@@ -194,7 +159,6 @@ list-style-type:none;
 }
 .google-map {
   color: #ffffff;
-  padding-left: 60px;
   font-family: "roboto";
   font-style: normal;
   font-weight: 400;
@@ -206,30 +170,16 @@ list-style-type:none;
   color: var(--brand-color);
 }
 /* portafolio */
-.div-btn{
- justify-content: center;
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-}
 .ul-btn{
   list-style-type: none; 
-  display: inline-flex; 
-  justify-content: center;
-  width: 1200px;
 }
 .btn-menu {
   font-family: "Roboto";
-  width: 103px;
   cursor: pointer;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
-  margin: 7px;
-  padding: 1px 4px;
-  border: 0px;
-  text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
   background: #f5f4fa;
